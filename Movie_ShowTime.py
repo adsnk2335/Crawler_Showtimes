@@ -19,7 +19,7 @@ font_other = xl.styles.Font(name='微軟正黑體', size=12)
 def minshan_movie_info():
     home_page = "http://www.minshen.com.tw/"
     url = "http://www.minshen.com.tw/movies.php"
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"}
+    headers = {"User-Agent": "Mozilla/5.0 .......}
     resp = req.get(url, headers=headers)
     if resp.status_code == 200:
         resp.encoding = "UTF-8"
